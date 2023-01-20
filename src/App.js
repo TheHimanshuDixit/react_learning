@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import HideShowtoggle from './Learning/HideShowtoggle';
+import Handleform from './Learning/Handleform';
+// import HideShowtoggle from './Learning/HideShowtoggle';
 // import DarkMode from './DarkMode';
 // import State_in_functionalComp from './Learning/State_in_functionalComp';
 // import StateInClassComp from './Learning/stateInClassComp';
@@ -15,7 +16,8 @@ function App() {
 
   return (
     <div className="App">
-      <HideShowtoggle/>
+      <Handleform/>
+      {/* <HideShowtoggle/> */}
       {/* <Getdata/> */}
     </div>
   );
