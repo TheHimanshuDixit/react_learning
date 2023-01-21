@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Handleform from './Learning/Handleform';
+import ConditionalRendering from './Learning/ConditionalRendering';
+// import Handleform from './Learning/Handleform';
 // import HideShowtoggle from './Learning/HideShowtoggle';
 // import DarkMode from './DarkMode';
 // import State_in_functionalComp from './Learning/State_in_functionalComp';
@@ -16,9 +17,10 @@ function App() {
 
   return (
     <div className="App">
-      <Handleform/>
+      {/* <Handleform/> */}
       {/* <HideShowtoggle/> */}
       {/* <Getdata/> */}
+      <ConditionalRendering/>
     </div>
   );
 }
